@@ -1,0 +1,9 @@
+[
+  { "session_type": "practice", "date": "2026-06-22", "focus": "install + conditioning" },
+  { "session_type": "practice", "date": "2026-06-23", "focus": "high intensity team period" },
+  { "session_type": "lift", "date": "2026-06-24", "focus": "lower body strength" },
+  { "session_type": "practice", "date": "2026-06-25", "focus": "scrimmage situations" },
+  { "session_type": "recovery", "date": "2026-06-26", "focus": "mobility + tempo" },
+  { "session_type": "walkthrough", "date": "2026-06-27", "focus": "assignments" },
+  { "session_type": "off-field", "date": "2026-06-28", "focus": "film + recovery" }
+]

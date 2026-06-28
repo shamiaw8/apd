@@ -1,0 +1,41 @@
+[
+  { "athlete_id": 1, "date": "2026-06-22", "duration_minutes": 82, "rpe": 5, "high_speed_yards": 740 },
+  { "athlete_id": 1, "date": "2026-06-23", "duration_minutes": 91, "rpe": 6, "high_speed_yards": 890 },
+  { "athlete_id": 1, "date": "2026-06-24", "duration_minutes": 65, "rpe": 4, "high_speed_yards": 520 },
+  { "athlete_id": 1, "date": "2026-06-25", "duration_minutes": 96, "rpe": 7, "high_speed_yards": 1020 },
+  { "athlete_id": 1, "date": "2026-06-26", "duration_minutes": 72, "rpe": 5, "high_speed_yards": 630 },
+  { "athlete_id": 1, "date": "2026-06-27", "duration_minutes": 48, "rpe": 3, "high_speed_yards": 310 },
+  { "athlete_id": 1, "date": "2026-06-28", "duration_minutes": 42, "rpe": 3, "high_speed_yards": 260 },
+
+  { "athlete_id": 2, "date": "2026-06-22", "duration_minutes": 98, "rpe": 7, "high_speed_yards": 940 },
+  { "athlete_id": 2, "date": "2026-06-23", "duration_minutes": 105, "rpe": 8, "high_speed_yards": 1100 },
+  { "athlete_id": 2, "date": "2026-06-24", "duration_minutes": 96, "rpe": 8, "high_speed_yards": 1080 },
+  { "athlete_id": 2, "date": "2026-06-25", "duration_minutes": 112, "rpe": 9, "high_speed_yards": 1240 },
+  { "athlete_id": 2, "date": "2026-06-26", "duration_minutes": 92, "rpe": 7, "high_speed_yards": 970 },
+  { "athlete_id": 2, "date": "2026-06-27", "duration_minutes": 75, "rpe": 6, "high_speed_yards": 760 },
+  { "athlete_id": 2, "date": "2026-06-28", "duration_minutes": 66, "rpe": 6, "high_speed_yards": 690 },
+
+  { "athlete_id": 3, "date": "2026-06-22", "duration_minutes": 88, "rpe": 6, "high_speed_yards": 620 },
+  { "athlete_id": 3, "date": "2026-06-23", "duration_minutes": 84, "rpe": 6, "high_speed_yards": 610 },
+  { "athlete_id": 3, "date": "2026-06-24", "duration_minutes": 93, "rpe": 7, "high_speed_yards": 720 },
+  { "athlete_id": 3, "date": "2026-06-25", "duration_minutes": 76, "rpe": 5, "high_speed_yards": 540 },
+  { "athlete_id": 3, "date": "2026-06-26", "duration_minutes": 80, "rpe": 5, "high_speed_yards": 570 },
+  { "athlete_id": 3, "date": "2026-06-27", "duration_minutes": 55, "rpe": 4, "high_speed_yards": 390 },
+  { "athlete_id": 3, "date": "2026-06-28", "duration_minutes": 50, "rpe": 3, "high_speed_yards": 320 },
+
+  { "athlete_id": 4, "date": "2026-06-22", "duration_minutes": 75, "rpe": 5, "high_speed_yards": 180 },
+  { "athlete_id": 4, "date": "2026-06-23", "duration_minutes": 79, "rpe": 5, "high_speed_yards": 210 },
+  { "athlete_id": 4, "date": "2026-06-24", "duration_minutes": 88, "rpe": 6, "high_speed_yards": 230 },
+  { "athlete_id": 4, "date": "2026-06-25", "duration_minutes": 72, "rpe": 4, "high_speed_yards": 190 },
+  { "athlete_id": 4, "date": "2026-06-26", "duration_minutes": 68, "rpe": 4, "high_speed_yards": 150 },
+  { "athlete_id": 4, "date": "2026-06-27", "duration_minutes": 52, "rpe": 3, "high_speed_yards": 90 },
+  { "athlete_id": 4, "date": "2026-06-28", "duration_minutes": 40, "rpe": 2, "high_speed_yards": 60 },
+
+  { "athlete_id": 5, "date": "2026-06-22", "duration_minutes": 82, "rpe": 6, "high_speed_yards": 830 },
+  { "athlete_id": 5, "date": "2026-06-23", "duration_minutes": 90, "rpe": 7, "high_speed_yards": 970 },
+  { "athlete_id": 5, "date": "2026-06-24", "duration_minutes": 70, "rpe": 5, "high_speed_yards": 650 },
+  { "athlete_id": 5, "date": "2026-06-25", "duration_minutes": 102, "rpe": 8, "high_speed_yards": 1160 },
+  { "athlete_id": 5, "date": "2026-06-26", "duration_minutes": 78, "rpe": 6, "high_speed_yards": 740 },
+  { "athlete_id": 5, "date": "2026-06-27", "duration_minutes": 58, "rpe": 4, "high_speed_yards": 480 },
+  { "athlete_id": 5, "date": "2026-06-28", "duration_minutes": 52, "rpe": 4, "high_speed_yards": 430 }
+]

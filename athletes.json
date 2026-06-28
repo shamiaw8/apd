@@ -1,0 +1,7 @@
+[
+  { "athlete_id": 1, "name": "Jordan Ellis", "position": "WR", "position_group": "Skill" },
+  { "athlete_id": 2, "name": "Malik Carter", "position": "RB", "position_group": "Skill" },
+  { "athlete_id": 3, "name": "Avery Brooks", "position": "LB", "position_group": "Defense" },
+  { "athlete_id": 4, "name": "Chris Nguyen", "position": "OL", "position_group": "Line" },
+  { "athlete_id": 5, "name": "Dante Reed", "position": "DB", "position_group": "Defense" }
+]

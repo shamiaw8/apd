@@ -1,0 +1,41 @@
+[
+  { "athlete_id": 1, "date": "2026-06-22", "sleep_hours": 8.1, "soreness": 3, "stress": 2, "mood": 8 },
+  { "athlete_id": 1, "date": "2026-06-23", "sleep_hours": 7.4, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 1, "date": "2026-06-24", "sleep_hours": 7.8, "soreness": 3, "stress": 2, "mood": 8 },
+  { "athlete_id": 1, "date": "2026-06-25", "sleep_hours": 6.5, "soreness": 5, "stress": 4, "mood": 6 },
+  { "athlete_id": 1, "date": "2026-06-26", "sleep_hours": 7.2, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 1, "date": "2026-06-27", "sleep_hours": 8.4, "soreness": 2, "stress": 2, "mood": 9 },
+  { "athlete_id": 1, "date": "2026-06-28", "sleep_hours": 7.9, "soreness": 3, "stress": 2, "mood": 8 },
+
+  { "athlete_id": 2, "date": "2026-06-22", "sleep_hours": 6.2, "soreness": 6, "stress": 5, "mood": 5 },
+  { "athlete_id": 2, "date": "2026-06-23", "sleep_hours": 5.8, "soreness": 7, "stress": 6, "mood": 4 },
+  { "athlete_id": 2, "date": "2026-06-24", "sleep_hours": 6.0, "soreness": 7, "stress": 5, "mood": 5 },
+  { "athlete_id": 2, "date": "2026-06-25", "sleep_hours": 5.5, "soreness": 8, "stress": 6, "mood": 4 },
+  { "athlete_id": 2, "date": "2026-06-26", "sleep_hours": 6.3, "soreness": 7, "stress": 5, "mood": 5 },
+  { "athlete_id": 2, "date": "2026-06-27", "sleep_hours": 6.6, "soreness": 6, "stress": 5, "mood": 6 },
+  { "athlete_id": 2, "date": "2026-06-28", "sleep_hours": 5.9, "soreness": 8, "stress": 7, "mood": 4 },
+
+  { "athlete_id": 3, "date": "2026-06-22", "sleep_hours": 7.1, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 3, "date": "2026-06-23", "sleep_hours": 7.3, "soreness": 5, "stress": 3, "mood": 7 },
+  { "athlete_id": 3, "date": "2026-06-24", "sleep_hours": 7.0, "soreness": 5, "stress": 4, "mood": 6 },
+  { "athlete_id": 3, "date": "2026-06-25", "sleep_hours": 7.5, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 3, "date": "2026-06-26", "sleep_hours": 7.7, "soreness": 3, "stress": 3, "mood": 8 },
+  { "athlete_id": 3, "date": "2026-06-27", "sleep_hours": 6.9, "soreness": 5, "stress": 4, "mood": 6 },
+  { "athlete_id": 3, "date": "2026-06-28", "sleep_hours": 7.2, "soreness": 4, "stress": 3, "mood": 7 },
+
+  { "athlete_id": 4, "date": "2026-06-22", "sleep_hours": 8.0, "soreness": 3, "stress": 2, "mood": 8 },
+  { "athlete_id": 4, "date": "2026-06-23", "sleep_hours": 8.2, "soreness": 3, "stress": 2, "mood": 8 },
+  { "athlete_id": 4, "date": "2026-06-24", "sleep_hours": 7.9, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 4, "date": "2026-06-25", "sleep_hours": 8.3, "soreness": 3, "stress": 2, "mood": 8 },
+  { "athlete_id": 4, "date": "2026-06-26", "sleep_hours": 8.1, "soreness": 2, "stress": 2, "mood": 9 },
+  { "athlete_id": 4, "date": "2026-06-27", "sleep_hours": 7.8, "soreness": 3, "stress": 3, "mood": 8 },
+  { "athlete_id": 4, "date": "2026-06-28", "sleep_hours": 8.4, "soreness": 2, "stress": 2, "mood": 9 },
+
+  { "athlete_id": 5, "date": "2026-06-22", "sleep_hours": 7.0, "soreness": 4, "stress": 4, "mood": 6 },
+  { "athlete_id": 5, "date": "2026-06-23", "sleep_hours": 6.8, "soreness": 5, "stress": 4, "mood": 6 },
+  { "athlete_id": 5, "date": "2026-06-24", "sleep_hours": 7.2, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 5, "date": "2026-06-25", "sleep_hours": 6.7, "soreness": 6, "stress": 5, "mood": 5 },
+  { "athlete_id": 5, "date": "2026-06-26", "sleep_hours": 7.4, "soreness": 4, "stress": 3, "mood": 7 },
+  { "athlete_id": 5, "date": "2026-06-27", "sleep_hours": 7.1, "soreness": 5, "stress": 4, "mood": 6 },
+  { "athlete_id": 5, "date": "2026-06-28", "sleep_hours": 6.9, "soreness": 5, "stress": 4, "mood": 6 }
+]
