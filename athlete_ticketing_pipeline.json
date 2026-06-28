@@ -1,0 +1,10 @@
+{
+  "name": "adf_athlete_ticketing_lakehouse_pipeline",
+  "description": "pseudo Azure Data Factory pipeline for portfolio documentation",
+  "activities": [
+    { "name": "copy_wellness_to_adls_bronze", "type": "Copy", "source": "wellness_json", "sink": "adls/bronze/wellness" },
+    { "name": "copy_workload_to_adls_bronze", "type": "Copy", "source": "workload_json", "sink": "adls/bronze/workload" },
+    { "name": "copy_archtics_exports_to_adls_bronze", "type": "Copy", "source": "ticketing_csv_export", "sink": "adls/bronze/ticketing" },
+    { "name": "trigger_databricks_silver_gold_models", "type": "DatabricksNotebook", "dependsOn": ["copy_wellness_to_adls_bronze", "copy_workload_to_adls_bronze", "copy_archtics_exports_to_adls_bronze"] }
+  ]
+}

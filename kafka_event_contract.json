@@ -1,0 +1,18 @@
+{
+  "topic": "ticket_scan_events",
+  "description": "mock streaming contract for venue access events",
+  "key": "ticket_id",
+  "value_schema": {
+    "event_id": "string",
+    "ticket_id": "string",
+    "account_id": "string",
+    "gate": "string",
+    "scan_timestamp": "timestamp",
+    "scan_result": "valid | rejected"
+  },
+  "quality_checks": [
+    "event_id must not be null",
+    "scan_timestamp must be parseable as timestamp",
+    "scan_result must be valid or rejected"
+  ]
+}
