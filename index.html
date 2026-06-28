@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athlete Performance Data Pipeline Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">sports performance analytics</p>
+      <h1>athlete performance dashboard</h1>
+      <p class="subtitle">mock data warehouse → reporting model → readiness insights</p>
+    </div>
+    <div class="header-actions">
+      <button id="exportCsvBtn">export team summary csv</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel controls-panel">
+      <label for="athleteSelect">select athlete</label>
+      <select id="athleteSelect"></select>
+
+      <div class="data-lineage">
+        <h2>pipeline lineage</h2>
+        <ol>
+          <li>raw wellness + workload json</li>
+          <li>javascript api-style ingestion</li>
+          <li>metric calculations</li>
+          <li>reporting-ready dashboard</li>
+        </ol>
+      </div>
+
+      <div class="model-card">
+        <h2>reporting model</h2>
+        <p><strong>fact tables:</strong> wellness, workload, training sessions</p>
+        <p><strong>dimensions:</strong> athletes, position groups</p>
+      </div>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="metric-card">
+        <span>readiness score</span>
+        <strong id="readinessScore">--</strong>
+        <p id="readinessLabel">loading...</p>
+      </article>
+      <article class="metric-card">
+        <span>recovery score</span>
+        <strong id="recoveryScore">--</strong>
+        <p>sleep + soreness + stress</p>
+      </article>
+      <article class="metric-card">
+        <span>acute:chronic ratio</span>
+        <strong id="acwrScore">--</strong>
+        <p id="acwrLabel">workload balance</p>
+      </article>
+      <article class="metric-card alert-card" id="riskCard">
+        <span>risk flag</span>
+        <strong id="riskFlag">--</strong>
+        <p id="riskReason">loading...</p>
+      </article>
+
+      <article class="panel chart-panel wide">
+        <div class="panel-title-row">
+          <h2>weekly workload</h2>
+          <p>session load by day</p>
+        </div>
+        <canvas id="workloadChart"></canvas>
+      </article>
+
+      <article class="panel chart-panel">
+        <div class="panel-title-row">
+          <h2>sleep trend</h2>
+          <p>hours per night</p>
+        </div>
+        <canvas id="sleepChart"></canvas>
+      </article>
+
+      <article class="panel chart-panel">
+        <div class="panel-title-row">
+          <h2>soreness trend</h2>
+          <p>1 low - 10 high</p>
+        </div>
+        <canvas id="sorenessChart"></canvas>
+      </article>
+
+      <article class="panel wide">
+        <div class="panel-title-row">
+          <h2>team reporting summary</h2>
+          <p>modeled output for analysis</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>athlete</th>
+                <th>position</th>
+                <th>readiness</th>
+                <th>recovery</th>
+                <th>acwr</th>
+                <th>risk</th>
+              </tr>
+            </thead>
+            <tbody id="teamSummaryBody"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>built for github pages • frontend-only • data engineering flavored, no backend chaos</p>
+  </footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/calculations.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
